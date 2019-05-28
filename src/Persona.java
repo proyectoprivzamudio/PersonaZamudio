@@ -38,5 +38,10 @@ public class Persona {
 	public void setAnno(int anno) {
 		this.anno = anno;
 	}
+	
+	@Override
+	public String toString() {
+		return "Nombre: "+this.nombre+"\nFecha Nacimiento: "+this.fechaNac+"\nAño: "+this.anno;
+	}
 
 }
