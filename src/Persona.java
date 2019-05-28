@@ -41,7 +41,7 @@ public class Persona {
 	
 	@Override
 	public String toString() {
-		return "Nombre: "+this.nombre+"\nFecha Nacimiento: "+this.fechaNac+"\nAño: "+this.anno;
+		return "Nombree: "+this.nombre+"\nFecha Nacimiento: "+this.fechaNac+"\nAño: "+this.anno;
 	}
 
 }
